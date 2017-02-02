@@ -16,7 +16,6 @@ console.log("done");
 						checkLogin = true;
 						if (checkLogin) {
 							$('#wrapper').html(`
-								<div class="RBsticky-element">
 	 <div class="container-fluid"> 
 <div class="header">
 			<div class="row">
@@ -89,7 +88,6 @@ console.log("done");
 </div>
 
 	</div>
-</div>
 </div>
 			`);
 							$('.logOut').click(function () {
