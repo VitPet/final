@@ -1,0 +1,242 @@
+
+body{
+	background-color: #EDEEF0;
+}
+
+.col-md-12.head{
+	background-color: #507299;
+	height: 45px;
+}
+
+
+#search{
+	margin-top: 10px;
+	border: none;
+	border-radius: 13px;
+	width: 210px;
+	height: 25px;
+	outline: none;
+	padding-left: 10px;
+	background-color: #305075; 
+	color: #aaa;
+}
+#search:hover{
+	background-color: white;
+}
+#registration{
+	margin-top: 10px;
+	color:white;
+	background-color: #507299;
+
+}
+.registrationButton{
+	background-color: #507299;
+	border: none;
+	margin-top:-10px;
+	height: 45px;
+}
+.registrationButton:hover{
+	background-color: #486991;
+
+}
+
+
+.loginDiv{
+	height: 200px;
+	width: 200px;
+	padding-top: 20px;
+	
+}
+.content{
+	margin-top: 15px; 
+	background-color: white;
+	height:750px;
+	border:solid 0.1px;
+	border-color: #ddd;
+	text-align: center;
+
+
+}
+.fake{
+	width: 160px;
+}
+
+#login{
+	margin-left: -15px;
+	}
+
+.textEmail{
+	padding-top: 15px;
+}
+.textPass{
+	padding-top: 15px;
+}
+
+#form{
+	background-color: #FAFFBD;
+	border: solid 0.1px; 
+	border-color: #ccc;
+	outline: none;
+	margin-top: 5px;
+	padding-top: 5px;
+	padding-bottom:   5px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+#form:hover{
+	background-color: white;
+}
+.loginButton{
+	margin-left: -15px; 
+	margin-top: 15px; 
+	height: 35px;
+	width: 180px;
+	background-color: #507299;
+	border:none;
+}
+
+#Android{
+	margin-left: 50px;
+	/*padding-left: 50px; */
+}
+
+.loginButton:hover{
+	background-color: #6888AD;
+}
+
+.log{
+
+}
+#mainText{
+	margin: 30px;
+
+}
+h3{
+	
+	margin-top: 40px;
+	
+}
+.lead{
+
+	font-size: 17px;
+}
+#smartphone{
+	
+	width: 220px;
+	font-size: 14px;
+	margin-bottom: 20px;
+	
+			margin-left:  -15px;
+	
+
+}
+
+.bottomText{
+	margin-right: 80px;
+}
+#Android{
+	padding-left:  10px;
+	margin-right: 10px; 
+}
+#link:hover{
+	text-decoration: none;
+}
+.RBSticky {
+    position:fixed;
+    height:auto !important;
+    top:0;
+    z-index:100;
+    border-top:0;
+    margin-top:0;
+    width: 100%;
+}
+@media(max-width: 992px){
+
+.col-md-12.head {
+	padding-left: 13vh;
+height: 130px;
+}
+
+.content{
+	margin-top: 40px; 
+}
+#login {
+	margin-left: 5vh;
+	}
+
+	.loginButton{
+	margin-left: 5vh;
+	}
+	
+	#smartphone{
+			margin-right: 15px;
+	}
+	}
+
+
+@media(max-width: 768px)
+{
+	.content{
+		margin: 20px;
+		margin-top: 40px; 
+	}
+.col-md-12.head {
+	padding-left: 1vh;
+	height: 130px;
+}
+#image{
+max-width: 100%;
+height: auto;
+		
+	}
+	#Android{
+
+	font-size: 14px;
+	 margin: 0px;  
+		padding: 30px;
+}
+.bottomText{
+	margin-right: 50px;
+	padding-left: 20px;
+}
+}
+@media(max-width: 550px){
+
+		#Android{
+font-size: 12px;
+	 margin: 0px;  
+		padding: 10px;
+}
+#smartphone{
+	font-size: 70%;
+	width: 50%;
+	height:4%
+}
+.lead{
+	font-size: 15px;
+}
+h3{
+	font-size: 16px; 
+
+}
+}
+@media(max-width: 410px){
+
+	#Android{
+		font-size: 9px;
+		padding: 2px; 
+	}
+	#smartphone{
+	font-size: 50%;
+	width: 50%;
+	
+}
+.lead{
+	font-size: 12px;
+}
+.bottomText{
+
+margin-right: 35px;
+}
+}
