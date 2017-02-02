@@ -89,7 +89,7 @@ body{
 }
 .loginButton{
 	margin-left: -15px; 
-	margin-top: 15px; 
+	margin-bottom: 15px; 
 	height: 35px;
 	width: 180px;
 	background-color: #507299;
@@ -151,6 +151,13 @@ h3{
     margin-top:0;
     width: 100%;
 }
+
+#alert{
+	padding-left: 10px;
+	padding-top: 0px;
+	color: red;
+	font-size: 12px;
+}
 @media(max-width: 992px){
 
 .col-md-12.head {
@@ -159,7 +166,7 @@ height: 130px;
 }
 
 .content{
-	margin-top: 40px; 
+	margin-top: 50px; 
 }
 #login {
 	margin-left: 5vh;
@@ -172,6 +179,10 @@ height: 130px;
 	#smartphone{
 			margin-right: 15px;
 	}
+	#alert{
+		padding-left: 20px;
+		margin-left: 40px;
+	}
 	}
 
 
@@ -179,7 +190,7 @@ height: 130px;
 {
 	.content{
 		margin: 20px;
-		margin-top: 40px; 
+		margin-top: 60px; 
 	}
 .col-md-12.head {
 	padding-left: 1vh;
