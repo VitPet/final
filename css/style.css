@@ -9,6 +9,7 @@ body{
 }
 
 
+
 #search{
 	margin-top: 10px;
 	border: none;
@@ -183,6 +184,10 @@ height: 130px;
 		padding-left: 20px;
 		margin-left: 40px;
 	}
+	.RBSticky {
+	position:relative;
+   
+}
 	}
 
 
@@ -211,6 +216,10 @@ height: auto;
 	margin-right: 50px;
 	padding-left: 20px;
 }
+.RBSticky {
+	position:relative;
+   
+}
 }
 @media(max-width: 550px){
 
@@ -231,6 +240,10 @@ h3{
 	font-size: 16px; 
 
 }
+.RBSticky {
+	position:relative;
+   
+}
 }
 @media(max-width: 410px){
 
@@ -249,5 +262,9 @@ h3{
 .bottomText{
 
 margin-right: 35px;
+}
+.RBSticky {
+	position:relative;
+   
 }
 }
